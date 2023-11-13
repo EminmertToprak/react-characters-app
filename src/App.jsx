@@ -23,7 +23,7 @@ function App() {
 	return (
 		<>
 			<h1>React Characters App</h1>
-			{characters && <h2>Number of characters: {characters.length}</h2>}
+
 			<hr />
 
 			<Routes>

@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import CharacterDetails from './CharacterDetails';
 
 function CharacterList({ charactersArr }) {
 	return (
 		<div>
+			{charactersArr && <h2>Number of characters: {charactersArr.length}</h2>}
 			{charactersArr === null ? (
 				<p> loading... </p>
 			) : (
